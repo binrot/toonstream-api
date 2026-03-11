@@ -42,7 +42,7 @@ const MAX_FETCH_SIZE = 50 * 1024 * 1024;     // 50 MB
 const MAX_MP4_SIZE = 20 * 1024 * 1024 * 1024; // 20 GB
 
 // const PLAYLIST_REGEX = /\.m3u|playlist|\.txt/i
-const PLAYLIST_REGEX = /\.m3u|playlist|\.txt|^(?!.*\.(?:js|css|gif|jpg|png|svg|ts|mp4|m4s|aac|key|vtt)(?:[\?#].*)?$).*$/i;
+const PLAYLIST_REGEX = /\.m3u|playlist|\.txt|^(?!.*\.(?:js|css|gif|jpg|png|svg|woff|woff2|ttf|ts|mp4|m4s|aac|key|vtt)(?:[\?#].*)?$).*$/i;
 
 
 const app = new Elysia()
