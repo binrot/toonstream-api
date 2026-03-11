@@ -1,0 +1,12 @@
+.git
+.gitignore
+.vercel
+.vscode
+node_modules
+logs
+tests
+coverage
+*.log
+.env
+.env.*
+README.md
