@@ -47,3 +47,4 @@ package-lock.json
 # custom
 logs
 .vscode
+tests
